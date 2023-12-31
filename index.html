@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styleNav2.css">
+    <link rel="stylesheet" href="dropDown.css">
+    <link rel="stylesheet" href="styleCarousel.css">
+    <link rel="stylesheet" href="container1.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="container2.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <h1><li><a href="#carousel">Home</a></li></h1>
+                <h1><li><a href="#values">About</a></li></h1>
+                <h1><li><a href="#destinations">Services</a></li></h1>
+                <h1><li><a href="#contact">Contact&nbsp;Us</a></li></h1>
+            </ul>
+        </div>
+        <!-- <div class="custom-dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown()">
+              <i class="fas fa-bars dropdown-icon"></i>
+            </div>
+            <div class="dropdown-list"> -->
+              <!-- <option value="apple"><i class="fas fa-ellipsis-h"></i> Apple</option> -->
+              <!-- <option value="orange"><i class="fas fa-ellipsis-h"></i> Orange</option> -->
+              <!-- <option value="banana"><i class="fas fa-ellipsis-h"></i> Banana</option>
+              <option value="grape"><i class="fas fa-ellipsis-h"></i> Grape</option>
+            </div>
+          </div> -->
+        <!-- data-aos="fade-left" data-aos-duration="4000" -->
+    </header>
+    <section id="carousel">
+        <main>
+            <img src="https://picsum.photos/id/16/800/500" class="slide" alt="">
+            <img src="https://picsum.photos/id/28/800/500" class="slide" alt="">
+            <img src="https://picsum.photos/id/29/800/500" class="slide" alt="">
+            <img src="https://picsum.photos/id/49/800/500" class="slide" alt="">
+        </main>
+        <div class="navCarousel">
+            <button onclick="goPrev()" >
+                Prev
+            </button>
+            <button onclick="goNext()" >
+                Next
+            </button>
+        </div>
+    </section>
+    <section id="values">
+        <div class="container1">
+            <div data-aos="fade-up" data-aos-duration="900">The Core Values</div>
+        </div>
+        <div id="values">
+
+            <div class="box" data-aos="flip-left">
+                <!-- <img src="Img/1.jpg" alt="" srcset=""> -->
+                <h2 class="h-secondary center">Customer-Centricity</h2>
+                <br>
+                <p class="center">Our company prioritizes customer satisfaction above all else. We are committed to understanding and meeting the unique needs of our clients. From personalized services to attentive support, we strive to exceed expectations, ensuring memorable and fulfilling experiences throughout their stay.CulturalStay Connect thrives on customer-centric values, tailoring each guest's experience to their desires. From bespoke itineraries to personalized services, we ensure exceptional satisfaction. Guests' needs remain our focus, guaranteeing memorable cultural immersions and exceeding expectations at every step.</p>
+
+            </div>
+            <div class="box" data-aos="flip-left">
+                <!-- <img src="Img/bgf1.jpg" alt="" srcset=""> -->
+                <h2 class="h-secondary center">Community Engagement</h2>
+                <br>
+                <p class="center">We actively engage with local communities, respecting their culture and environment. Through responsible tourism practices, we aim to positively impact the communities we operate in. We collaborate with locals, support local businesses, and promote sustainable initiatives to preserve the destination's authenticity and welfare.Rooted in community engagement, CulturalStay Connect partners with local cultures, embracing traditions, and supporting community growth. Through responsible tourism, we integrate guests into cultural exchanges, empowering communities and nurturing a symbiotic relationship for enriching travel experiences.</p>
+
+            </div>
+            <div class="box" data-aos="flip-left">
+                <!-- <img src="Img/fdel.png" alt="" srcset=""> -->
+                <h2 class="h-secondary center">Continuous Improvement</h2>
+                <br>
+                <p class="center">We believe in constant growth and innovation. Embracing feedback and evolving with industry trends, we consistently enhance our services. From refining operational efficiency to incorporating new technologies, we are dedicated to improving the quality of our offerings, ensuring exceptional experiences for our clients.CulturalStay Connect's commitment to continuous improvement fuels innovation, enhancing services and experiences. We adapt to evolving industry trends, embracing technological advancements, and refining operations to provide unparalleled cultural immersion, ensuring every stay surpasses previous standards.</p>
+            </div>
+        </div>
+    </section>
+    <section id="destinations">
+        <div class="container2">
+            <h1 data-aos="fade-up" data-aos-duration="4000">Top Destinations</h1>
+             
+        </div>
+        <div id="spot1">
+            <div class="box1" data-aos="fade-left" data-aos-duration="4000"><img src="https://picsum.photos/id/15/410/410" alt="spot1">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="4000">
+                <h1>Nauyaca Waterfalls</h1>
+                <ul>
+                    <li>Location: Costa Rica, Central America</li>
+                    <li>Resorts/Hotels: There are several accommodations nearby in towns like Dominical, Uvita, and San Isidro, offering various lodging options ranging from eco-lodges to guesthouses. The exact count may fluctuate.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="spot2">
+            <div class="box1" data-aos="fade-left" data-aos-duration="4000"><img src="https://picsum.photos/id/13/410/410" alt="spot2">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="4000">
+                <h1>Anse Source d'Argent Beach</h1>
+                <ul>
+                    <li>Location: La Digue Island, Seychelles, Africa</li>
+                    <li>Resorts/Hotels: La Digue Island has a limited number of accommodations due to its smaller size. There are guesthouses, small hotels, and beach bungalows, but the exact count may vary.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="spot3">
+            <div class="box1" data-aos="fade-left" data-aos-duration="4000"><img src="https://picsum.photos/id/11/410/410" alt="spot3">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="4000">
+                <h1>Pangong Lake in Leh-Ladakh</h1>
+                <ul>
+                    <li>Location: India, Asia</li>
+                    <li>Resorts/Hotels: Leh-Ladakh has various accommodations in Leh town, including hotels, guesthouses, and campsites. However, specifics on the number of resorts and hotels around Pangong Lake might be limited due to the remote and less developed nature of the area.</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        
+    </section>
+    <section id="contact" data-aos="fade-up" data-aos-duration="3500">
+        <h1>Contact Us</h1>
+        <div id="contactForm">           
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your Name" name="name" pattern="[A-Za-z ]+" title="Please enter a valid name (letters and spaces only)" required>
+                <br><br>
+              
+                <label for="email">Email address:</label>
+                <input type="email" id="email" placeholder="Enter your Email" name="email" title="Please enter a valid email address" required>
+                <br><br>
+              
+                <label for="phone">Phone number:</label>
+                <input type="text" id="phone" placeholder="Enter your Phone Number" name="phone" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+              </form>
+              
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; CavitasHaven.com. All rights reserved
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="dropDown.js"></script>
+    <script src="contact.js"></script>
+    <script src="carousel.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

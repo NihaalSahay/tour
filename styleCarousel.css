@@ -1,0 +1,36 @@
+main{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    transition: 1s;
+    /* this had created the stack of images pilled over each other */
+
+}
+.navCarousel{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.navCarousel button{
+    color: #888;
+    margin-top: 13px;
+    border-radius: 100px;
+    margin-right: 10%;
+    border: 2px solid white;
+    font-size: 1.5vw;
+    padding: 12px 22px;
+    cursor: pointer;
+    margin-left: 10%;
+    box-shadow: 0 0 10px white;
+}
+

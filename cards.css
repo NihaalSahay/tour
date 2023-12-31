@@ -1,0 +1,22 @@
+.box1{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 60px 33px;
+    width: 31%;
+    height: 413px;
+    background: #000000;
+    border-radius: 20px;
+    /* display: inline; */
+}
+.box{
+    border: 2px solid rgb(80, 78, 78);
+    margin: 60px 33px;
+    width: 31%;
+    height: 413px;
+    background: #000000;
+    border-radius: 20px;
+    /* display: inline; */
+}
+#values{
+    display: flex;
+    margin: 20px;
+}
